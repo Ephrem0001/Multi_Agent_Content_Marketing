@@ -1,3 +1,28 @@
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Outputs & models
+outputs/
+sample_outputs/**/images/
+models/
+*.gguf
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
